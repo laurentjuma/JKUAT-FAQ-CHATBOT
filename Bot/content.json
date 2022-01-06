@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "1",
+      "patterns": ["Hi", "Is anyone there?", "Hello"],
+      "responses": ["Hi", "Hello", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "2",
+      "patterns": ["Who are you", "What is you name", "Do you have a name"],
+      "responses": ["Hi, JKUAT BOT", "My name is JKUAT BOT", "I'm JKUAT BOT"],
+      "context_set": ""
+    },
+    {
+      "tag": "5",
+      "patterns": [
+        "What are the settings for the wireless internet",
+        "wireless internet",
+        "connect to wireless internet",
+        "access wireless internet",
+        "JKUAT wifi",
+        "connect to wifi"
+      ],
+      "responses": [
+        "The library wireless internet is open. This means that you do not need settings to access the wireless internet. Your browser picks the wireless automatically. However, if your laptop does not pick the wireless automatically, seek assistance from the library ICT Section."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "6",
+      "patterns": [
+        "How can I access the electronic journals in the library",
+        "electronic journals",
+        "get journals",
+        "give me electronic journals"
+      ],
+      "responses": [
+        "Google for JKUAT Library website. Click on the link to e-journals found on the menu bar. This takes you to an alphabetical list of databases of journals that are available for you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "7",
+      "patterns": [
+        "Where do I get the codes and passwords for accessing the electronic journals"
+      ],
+      "responses": [
+        "You can obtain a list of the databases of journals and books that we subscribe to from the Library Photocopying unit at minimal photocopying charges. The list includes passwords and user names for the various databases. The list is also regularly circulated to everyone on the JKUAT email network. You can also email library@jkuat.ac.ke or digital.library@jkuat.ac.ke for the list."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "8",
+      "patterns": [
+        "How do I get access to a computer in the library computer laboratory?"
+      ],
+      "responses": [
+        "The library has a postgraduate and an undergraduate computer lab located on the ground floor. You are required to book for the use of the computers. Undergraduate students use a computer for a maximum of one (1) hr while the postgraduate students use the computers for a maximum of two (2) hrs"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "9",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "10",
+      "patterns": ["Thank you"],
+      "responses": ["You are welcome"],
+      "context_set": ""
+    }
+  ]
+}
