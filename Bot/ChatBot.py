@@ -7,7 +7,7 @@ import random
 
 import pickle
 import json
-import path
+from Bot import path
 nltk.download('punkt')
 
 

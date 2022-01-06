@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:/Users/Loise/Desktop/4.2/Tensorflow-Chatbot/Bot/model.tflearn"
-all_model_checkpoint_paths: "C:/Users/Loise/Desktop/4.2/Tensorflow-Chatbot/Bot/model.tflearn"
+model_checkpoint_path: "/home/c4/Desktop/JKUAT-FAQ-CHATBOT/Bot/model.tflearn"
+all_model_checkpoint_paths: "/home/c4/Desktop/JKUAT-FAQ-CHATBOT/Bot/model.tflearn"

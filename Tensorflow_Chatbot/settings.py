@@ -93,5 +93,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    '/Users/Loise/Desktop/4.2/Tensorflow-Chatbot/static',
+    '/home/c4/Desktop/JKUAT-FAQ-CHATBOT/static/',
 ]
+
