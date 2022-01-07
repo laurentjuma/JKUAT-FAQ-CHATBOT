@@ -2,14 +2,30 @@
   "intents": [
     {
       "tag": "1",
-      "patterns": ["Hi", "Is anyone there?", "Hello"],
-      "responses": ["Hi", "Hello", "Hi there, how can I help?"],
+      "patterns": [
+        "Hi",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hi",
+        "Hello",
+        "Hi there, how can I help?"
+      ],
       "context_set": ""
     },
     {
       "tag": "2",
-      "patterns": ["Who are you", "What is you name", "Do you have a name"],
-      "responses": ["Hi, JKUAT BOT", "My name is JKUAT BOT", "I'm JKUAT BOT"],
+      "patterns": [
+        "Who are you",
+        "What is you name",
+        "Do you have a name"
+      ],
+      "responses": [
+        "Hi, JKUAT BOT",
+        "My name is JKUAT BOT",
+        "I'm JKUAT BOT"
+      ],
       "context_set": ""
     },
     {
@@ -53,7 +69,9 @@
     {
       "tag": "8",
       "patterns": [
-        "How do I get access to a computer in the library computer laboratory?"
+        "How do I get access to a computer in the library computer laboratory?",
+        "Access computer",
+        "Use library computer"
       ],
       "responses": [
         "The library has a postgraduate and an undergraduate computer lab located on the ground floor. You are required to book for the use of the computers. Undergraduate students use a computer for a maximum of one (1) hr while the postgraduate students use the computers for a maximum of two (2) hrs"
@@ -62,7 +80,147 @@
     },
     {
       "tag": "9",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "What are the qualifications for admission to JKUAT for International Students",
+        "International students admission",
+        "Qualifications for international students"
+      ],
+      "responses": [
+        "The qualifications for any International Student to join JKUAT varies depending on the course one intends to pursue in this prestigious university. We kindly request that you follow this link www.admission.jkuat.ac.ke"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "10",
+      "patterns": [
+        "What is an Index Number in the Online Application Process",
+        "Index number in online application",
+        "Index number"
+      ],
+      "responses": [
+        "When Asked to provide an Index Number during the JKUAT online application platform, Kindly fill in your High School Candidate Number or Examination number, In Kenya we call it Student Index Number, and proceed with your application."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "11",
+      "patterns": [
+        "What legal documents does one needs before studying in Kenya and where do I get them",
+        "Documents required to study in Kenya",
+        "Requirements to study in Kenya"
+      ],
+      "responses": [
+        "It is an offence to receive education or training at any educational or training establishment within Kenya without a pupils or students pass . Ensure you get a Police Clearance Certificate from your country before coming to Kenya for your pupils Pass Application."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "12",
+      "patterns": [
+        "Accommodation and Transport from the Airport",
+        "Accomodation",
+        "How do I get Accomodation"
+      ],
+      "responses": [
+        "If you are an exchange Staff or Student or a visiting staff and you need a short accommodation plan, you are advised to make a request to ALISO through your supervisor or host or hosting Department one month before the day of travel."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "13",
+      "patterns": [
+        "How does one get something announced during fellowships or Sunday Services",
+        "How do I make an announcement in service",
+        "Church announcement"
+      ],
+      "responses": [
+        "All announcements must be passed through the Secretary by text ,or otherwise via the JKUATCU phone number 0741852211. Sunday announcements should be passed to the secretary before 7 pm on Saturday and Wednesday announcements before 7 pm on Monday."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "14",
+      "patterns": [
+        "How does one get a clip played during the Wednesday Fellowship",
+        "How do I play a clip during fellowship",
+        "How do I play a video during fellowship",
+        "How do I play audio during fellowship"
+      ],
+      "responses": [
+        "Anyone or any department or group within JKUATCU who wants a clip played during the Wednesday Fellowship must pass it through either the Literature Secretary who must be notified at least one week in advance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "15",
+      "patterns": [
+        "What is MD",
+        "MD"
+      ],
+      "responses": [
+        "MD stands for Morning Devotion. It is a devotion that takes place every weekday from 5 am to 6 am. Those who stay within campus meet at the assembly hall blue seats and those who stay in hostels outside can either opt to join the rest at the assembly hall."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "16",
+      "patterns": [
+        "Where is the Power House located and what is it used for",
+        "Where is the Power House",
+        "What is the Power House used for",
+        "Power House",
+        "Powe House location"
+      ],
+      "responses": [
+        "The power house is located in the assembly hall adjascent to the stairs that lead to the balcony. It is used for prayers and many JKUATCU announcements are also posted there"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "17",
+      "patterns": [
+        "How does one join a ministry in the union",
+        "Join a ministry",
+        "Join the union",
+        "How do I join a ministry in the union"
+      ],
+      "responses": [
+        "One can join a ministry by contacting the ministry through their page on this site or contacting the leader of the ministry."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "18",
+      "patterns": [
+        "How do i activate my student email",
+        "Access student email",
+        "Student email",
+        "How do I access my student email"
+      ],
+      "responses": [
+        "Google the JKUAT website. Under highlights ,next to the slideshow, select 'Activate Your Student Email'. Enter your registration number then submit. Proceed to follow the instructions given to activate"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "19",
+      "patterns": [
+        "How do I reset my portal password",
+        "Reset email password",
+        "Portal password"
+      ],
+      "responses": [
+        "To reset your password, visit IEET."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "20",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -70,10 +228,15 @@
       ],
       "context_set": ""
     },
+  
     {
-      "tag": "10",
-      "patterns": ["Thank you"],
-      "responses": ["You are welcome"],
+      "tag": "21",
+      "patterns": [
+        "Thank you"
+      ],
+      "responses": [
+        "You are welcome"
+      ],
       "context_set": ""
     }
   ]

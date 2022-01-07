@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/c4/Desktop/JKUAT-FAQ-CHATBOT/Bot/model.tflearn"
-all_model_checkpoint_paths: "/home/c4/Desktop/JKUAT-FAQ-CHATBOT/Bot/model.tflearn"
+model_checkpoint_path: "/home/mbogi/Desktop/JKUAT-FAQ-CHATBOT/Bot/model.tflearn"
+all_model_checkpoint_paths: "/home/mbogi/Desktop/JKUAT-FAQ-CHATBOT/Bot/model.tflearn"

@@ -93,6 +93,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    '/home/c4/Desktop/JKUAT-FAQ-CHATBOT/static/',
+    '/home/mbogi/Desktop/JKUAT-FAQ-CHATBOT/static/',
 ]
 
